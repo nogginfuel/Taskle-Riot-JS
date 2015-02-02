@@ -8,7 +8,7 @@ I decided to integrate several aspects of Material Design via ideas in [Material
 
 **Roadmap:**
 
-Potentially integrate the timer example with the todo app.
+Potentially integrate the timer example with the todo app. -Added 2/2/15
 Add more design elements and ideas from Materialize.
 
 Thanks to these people for making my learning possible:
