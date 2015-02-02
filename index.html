@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Riot JS - Taskle</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="todo.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script>html5.addElements('todo')</script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <todo></todo>
+
+    <script src="https://cdn.jsdelivr.net/riot/2.0/riot.min.js"></script>
+    <script src="todo.js"></script>
+
+    <script>
+    riot.mount('todo', {
+      title: 'Taskle',
+      items: [
+        { title: 'Add Material Design Styling', done: true },
+        { title: 'Hidden item', hidden: true },
+        { title: 'Continue Learning Riotjs' },
+        { title: 'Tell Other people about it' }
+      ]
+    })
+    </script>
+
+  </body>
+
+</html>
