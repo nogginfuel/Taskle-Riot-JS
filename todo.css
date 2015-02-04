@@ -25,6 +25,8 @@ timer {
   display: block;
   max-width: 400px;
   margin: 5% auto;
+  font-size: small;
+  color: #888;
 }
 
 form input {
